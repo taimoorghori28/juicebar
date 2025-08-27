@@ -20,7 +20,7 @@ if (juiceType === "orange") {
 //  Price for Size
 if (size === "small") {
     price += 50;
-} else if (size) === "medium") {
+} else if (size === "medium") {
     price += 100;
 } else if (size === "large") {
     price += 150;
@@ -41,4 +41,5 @@ if (sugar === "extra sugar") {
 console.log("Selected Juice: " + juiceType);
     console.log("Size: " + size);
     console.log("Sugar: " + sugar);
+
     console.log("Total Bill: " + price);
